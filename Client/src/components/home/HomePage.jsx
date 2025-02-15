@@ -5,6 +5,7 @@ import HeroSection from "./HeroSection"
 import Awards from "./Awards"
 import Pricing from './Pricing'
 import Education from './Education'
+import Stats from "./Stats"
 import OpenAccount from "../OpenAccount"
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Navbar />
       <HeroSection />
       <Awards />
+      <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
